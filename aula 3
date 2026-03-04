@@ -1,0 +1,169 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNAtiCBfTrNZlbOpVpjZRwG",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/vitor172010/P.-A./blob/main/aula%203\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Aula de programação e algoritimos\n",
+        "*Cálculo\n",
+        "\n",
+        "#Entrada\n",
+        "\n",
+        "*ler lado 1\n",
+        "\n",
+        "*ler lado 2\n",
+        "\n",
+        "#Processamento\n",
+        "\n",
+        "area = lado 1 * lado 2\n",
+        "\n",
+        "#Saída\n",
+        "\n",
+        "impimir area"
+      ],
+      "metadata": {
+        "id": "dtUchfCyeiNg"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print ('hello world')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ULP736KsfkYJ",
+        "outputId": "86f4f812-b7e5-45c6-aaf3-38bd0b83d725"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello world\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "JZnNw79-ofeU"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# tipos numericos\n",
+        "idade = 25 # int\n",
+        "altura = 1.75 # float\n",
+        "numero_complexo = 2 + 3j# complex\n",
+        "\n",
+        "#tipo texto\n",
+        "\n",
+        "nome = \"Alice\" # str\n",
+        "\n",
+        "# tipo booleano\n",
+        "esta_chovendo = False # bool"
+      ],
+      "metadata": {
+        "id": "wP3Og9V3iptk"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print ('sistema de nota')\n",
+        "\n",
+        "# Entrada\n",
+        "\n",
+        "# Solicita a nota do aluno\n",
+        "nota = float(input(\"Digite a nota do aluno: \"))\n",
+        "\n",
+        "# Processamento\n",
+        "\n",
+        "# Define o limite para aprovação\n",
+        "limite_aprovacao = 7.0\n",
+        "\n",
+        "# Verifica se o aluno foi aprovado ou reprovado\n",
+        "if nota >= limite_aprovacao:\n",
+        "    situacao = \"Aprovado\"\n",
+        "else:\n",
+        "    situacao = \"Reprovado\"\n",
+        "\n",
+        "# Saida\n",
+        "\n",
+        "# Imprime a situação do aluno\n",
+        "print(f\"O aluno está: {situacao}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IqSLc6l7f2b6",
+        "outputId": "42bec457-f1c7-4442-cc2b-83cb6426131d"
+      },
+      "execution_count": 55,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "sistema de nota\n",
+            "Digite a nota do aluno: 6.5\n",
+            "O aluno está: Reprovado\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "7n8KE7UNkWnj"
+      },
+      "execution_count": 54,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "O1GvIUgNeEpt"
+      }
+    }
+  ]
+}
